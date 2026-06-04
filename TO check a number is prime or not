@@ -1,0 +1,13 @@
+a=int(input("enter your number :"))
+f=0
+i=2
+while(a>i):
+    if(a%i==0):
+        f=1
+        break
+    else:
+        i+=1
+if(f==0):
+    print("prime number")
+else:
+    print("non prime number")
