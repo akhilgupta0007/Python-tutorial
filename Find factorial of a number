@@ -1,0 +1,7 @@
+a=int (input("enter your number :"))
+f=1
+while(a>1):
+    f=f*a
+    a-=1
+   #factorial number
+    print(f)
