@@ -1,0 +1,8 @@
+# to calculate salary of employee
+amount=500
+employee=5
+while(employee>0):
+    hour=int(input("enter hour of employees:"))
+    salary=hour*amount
+    employee-=1
+    print(salary)
