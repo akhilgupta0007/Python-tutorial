@@ -1,0 +1,27 @@
+#calculate percentage and grade
+s1=int(input("enter marks out of 100 :"))
+s2=int(input("enter marks out of 100 :"))
+s3=int(input("enter marks out of 100 :"))
+s4=int(input("enter marks out of 100 :"))
+s5=int(input("enter marks out of 100 :"))
+# s1,s2,s3,s4,s5 are subject
+total=s1+s2+s3+s4+s5
+print(total)
+print("out of 500")
+
+percentage=(total/500)*100
+print(percentage)
+
+if(percentage>90):
+    print("grade A")
+elif(percentage>80):
+    print("grade B")
+elif(percentage>75):
+    print("grade C")
+elif(percentage>50):
+    print("grade D")
+elif(percentage>33):
+    print("grade E")
+else:
+    print("fail")
+
